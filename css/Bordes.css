@@ -1,0 +1,12 @@
+div{
+    background: red;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+}

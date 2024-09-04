@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #e1e1e1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form.formulario {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario_input {
+    background-color: #444444;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #e1e1e1;
+}
+
+.formulario_input::placeholder {
+    color: #a1a1a1;
+}
+
+button {
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #1e1e1e;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    form.formulario {
+        padding: 15px;
+    }
+
+    .formulario_input {
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    form.formulario {
+        padding: 10px;
+    }
+
+    .formulario_input {
+        padding: 6px;
+        margin-bottom: 8px;
+    }
+
+    button {
+        padding: 6px;
+    }
+}

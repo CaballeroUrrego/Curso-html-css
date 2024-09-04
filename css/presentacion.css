@@ -1,0 +1,35 @@
+body {
+  background-color: #000;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+
+.contenido{
+  text-align: center;
+
+ 
+}
+
+
+.box {
+  width: 5000px;
+ /* width: 10000px;*/
+  height: 500px;
+  margin: 20px;
+  background-color: #000;
+  background-image: url(https://scontent.feoh3-1.fna.fbcdn.net/v/t39.30808-6/385892520_2483371161831815_4049220597046689460_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=QtB2YazM91QQ7kNvgEqV4ps&_nc_ht=scontent.feoh3-1.fna&oh=00_AYBnueW5a0onTnL2IDpEWwWDhDuJH8aSEbHaAm2ij2pb-Q&oe=66D1A3EE);
+  background-size:contain; 
+ /* background-position: center; */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.opaco{
+  height: 100%;
+  width: 100;
+  background-color: #0008;
+}
